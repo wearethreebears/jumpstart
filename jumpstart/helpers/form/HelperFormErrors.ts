@@ -1,4 +1,4 @@
-import { FormErrors } from '~/interfaces/Form'
+import { FormErrors } from '../../interfaces/Form'
 
 export class HelperFormErrors {
 
