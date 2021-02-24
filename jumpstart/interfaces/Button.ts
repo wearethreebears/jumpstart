@@ -1,4 +1,4 @@
-import { KeyValuePairWithDefault } from '~/interfaces/Common'
+import { KeyValuePairWithDefault } from './Common'
 
 export interface ButtonStyle {
     [key: string]: {

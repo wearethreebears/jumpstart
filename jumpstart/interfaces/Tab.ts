@@ -1,4 +1,4 @@
-import { BoilerplatePart} from '~/interfaces/Boilerplate'
+import { BoilerplatePart} from './Boilerplate'
 
 export interface Tab {
 	key: string
