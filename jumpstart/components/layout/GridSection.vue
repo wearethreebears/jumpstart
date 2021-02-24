@@ -23,7 +23,7 @@ import {
 	LargeGridSectionEnds,
 	ExtraLargeGridSectionEnds,
 	ExtraExtraLargeGridSectionEnds,
-} from '../../../../jumpstart/GridSection'
+} from '../../../../../jumpstart/GridSection'
 
 export default Vue.extend({
 	props: {

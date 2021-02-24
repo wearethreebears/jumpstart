@@ -13,7 +13,7 @@
 <script lang="ts">
 import Vue, { PropOptions } from 'vue'
 
-import { ButtonBoilerplate, ButtonType, ButtonStyle, ButtonColor } from '../../../../jumpstart/Button'
+import { ButtonBoilerplate, ButtonType, ButtonStyle, ButtonColor } from '../../../../../jumpstart/Button'
 
 export default Vue.extend({
 	props: {

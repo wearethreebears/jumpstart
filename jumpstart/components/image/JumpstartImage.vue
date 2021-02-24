@@ -23,9 +23,9 @@
 import Vue, { PropOptions } from 'vue'
 
 import { Image } from '../../interfaces/Image'
-import { ImageBoilerplate } from '../../../../jumpstart/Image'
+import { ImageBoilerplate } from '../../../../../jumpstart/Image'
 
-import { Breakpoints } from '../../../../jumpstart/Breakpoint'
+import { Breakpoints } from '../../../../../jumpstart/Breakpoint'
 
 export default Vue.extend({
 	props: {

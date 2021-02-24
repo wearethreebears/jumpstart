@@ -7,7 +7,7 @@
 
 <script lang="ts">
 import Vue, { PropOptions } from 'vue'
-import { FormGroupBoilerplate } from '../../../../jumpstart/Form'
+import { FormGroupBoilerplate } from '../../../../../jumpstart/Form'
 
 import FormError from './FormError.vue'
 

@@ -13,7 +13,7 @@
 
 <script lang="ts">
 import Vue, { PropOptions } from 'vue'
-import { FormInputBoilerplate } from '../../../../jumpstart/Form'
+import { FormInputBoilerplate } from '../../../../../jumpstart/Form'
 
 import FormLabel from './FormLabel.vue'
 

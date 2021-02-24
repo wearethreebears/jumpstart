@@ -1,30 +1,18 @@
+<template>
+	<div :class="[fontClasses]" v-html="sanitizedText" />
+</template>
+
 <script lang="ts">
 import Vue, { PropOptions } from 'vue'
-import { FontBoilerplate, FontStyle, FontSize, FontColor, FontMargin } from '../../../../jumpstart/Font'
+import SanitizeHtml from 'sanitize-html'
+import { FontBoilerplate, FontStyle, FontSize, FontColor, FontMargin } from '../../../../../jumpstart/Font'
 
 export default Vue.extend({
-	render(createElement) {
-		return createElement(
-			`h${this.level}`, // tag name
-			{
-				attrs: {
-					class: `${FontBoilerplate.class} ${FontStyle[this.fontStyle]} ${FontSize[this.size]} ${
-						FontColor[this.color]
-					} ${FontMargin[this.margin]} ${this.customClass}`,
-				},
-			},
-			this.$slots.default // array of children,
-		)
-	},
-
 	props: {
-		level: {
+		text: {
 			required: true,
-			type: Number,
-			validator: (value: number) => {
-				return value > 0 && value < 7
-			},
-		} as PropOptions<number>,
+			type: String,
+		} as PropOptions<string>,
 
 		fontStyle: {
 			required: false,
@@ -47,12 +35,6 @@ export default Vue.extend({
 			},
 		} as PropOptions<keyof typeof FontColor>,
 
-		customClass: {
-			required: false,
-			type: String,
-			default: '',
-		} as PropOptions<string>,
-
 		margin: {
 			required: false,
 			type: String,
@@ -61,6 +43,18 @@ export default Vue.extend({
 				return Object.keys(FontMargin).includes(value)
 			},
 		} as PropOptions<keyof typeof FontMargin>,
+	},
+
+	computed: {
+		sanitizedText(): string {
+			return SanitizeHtml(this.text)
+		},
+
+		fontClasses(): string {
+			return `${FontBoilerplate.class} ${FontStyle[this.fontStyle]} ${FontSize[this.size]} ${
+				FontColor[this.color]
+			} ${FontMargin[this.margin]}`
+		},
 	},
 })
 </script>

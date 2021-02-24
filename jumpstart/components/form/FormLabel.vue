@@ -7,7 +7,7 @@
 
 <script lang="ts">
 import Vue, { PropOptions } from 'vue'
-import { FormLabelBoilerplate } from '../../../../jumpstart/Form'
+import { FormLabelBoilerplate } from '../../../../../jumpstart/Form'
 
 export default Vue.extend({
 	props: {

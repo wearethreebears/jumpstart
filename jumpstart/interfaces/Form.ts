@@ -1,4 +1,4 @@
-import { Boilerplate } from '~/interfaces/Boilerplate'
+import { Boilerplate } from './Boilerplate'
 
 export interface FormErrors {
     [key: string] : string[]

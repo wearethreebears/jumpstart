@@ -17,7 +17,7 @@ import {
 	LargeGridSectionSpans,
 	ExtraLargeGridSectionSpans,
 	ExtraExtraLargeGridSectionSpans,
-} from '../../../../jumpstart/GridSectionSpans'
+} from '../../../../../jumpstart/GridSectionSpans'
 
 export default Vue.extend({
 	props: {

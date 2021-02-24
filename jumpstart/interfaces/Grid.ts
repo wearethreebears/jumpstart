@@ -11,7 +11,7 @@ import {
     LargeGridSectionEnds,
     ExtraLargeGridSectionEnds,
     ExtraExtraLargeGridSectionEnds 
-} from '~/jumpstart/GridSection'
+} from '../../../../jumpstart/GridSection'
 
 import { 
     GridSectionSpans,
@@ -20,7 +20,7 @@ import {
     LargeGridSectionSpans,
     ExtraLargeGridSectionSpans,
     ExtraExtraLargeGridSectionSpans 
-} from '~/jumpstart/GridSectionSpans';
+} from '../../../../jumpstart/GridSectionSpans';
 
 export interface GridSectionPart {
     [key: number]: string

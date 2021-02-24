@@ -44,7 +44,7 @@
 import Vue, { PropOptions } from 'vue'
 
 import { Tab } from '../../interfaces/Tab'
-import { TabBoilerplate } from '../../../../jumpstart/Tab'
+import { TabBoilerplate } from '../../../../../jumpstart/Tab'
 
 export default Vue.extend({
 	props: {

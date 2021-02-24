@@ -5,7 +5,7 @@
 <script lang="ts">
 import Vue, { PropOptions } from 'vue'
 
-import { FormErrorBoilerplate } from '../../../../jumpstart/Form'
+import { FormErrorBoilerplate } from '../../../../../jumpstart/Form'
 
 export default Vue.extend({
 	props: {

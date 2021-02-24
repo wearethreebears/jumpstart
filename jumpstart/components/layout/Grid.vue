@@ -6,7 +6,7 @@
 
 <script lang="ts">
 import Vue, { PropOptions } from 'vue'
-import { GridBoilerplate, GridGap } from '../../../../jumpstart/Grid'
+import { GridBoilerplate, GridGap } from '../../../../../jumpstart/Grid'
 
 export default Vue.extend({
 	props: {

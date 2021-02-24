@@ -4,7 +4,7 @@
 
 <script lang="ts">
 import Vue, { PropOptions } from 'vue'
-import { SpacerBoilerplate, SpacerSize } from '../../../../jumpstart/Spacer'
+import { SpacerBoilerplate, SpacerSize } from '../../../../../jumpstart/Spacer'
 
 export default Vue.extend({
 	props: {

@@ -6,7 +6,7 @@
 
 <script lang="ts">
 import Vue, { PropOptions } from 'vue'
-import { FormWrapperBoilerplate } from '../../../../jumpstart/Form'
+import { FormWrapperBoilerplate } from '../../../../../jumpstart/Form'
 
 export default Vue.extend({
 	props: {
