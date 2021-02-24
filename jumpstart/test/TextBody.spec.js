@@ -1,7 +1,7 @@
 
 import { mount } from '@vue/test-utils'
 import TextBody from '../components/text/TextBody.vue'
-import * as Font from '../../../jumpstart/Font.ts'
+import * as Font from '../../../../jumpstart/Font.ts'
 
 let wrapper;
 

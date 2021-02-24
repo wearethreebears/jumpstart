@@ -1,6 +1,6 @@
 import { mount } from '@vue/test-utils'
 import Tabs from '../components/tabs/Tabs.vue'
-import * as TabsValidator from '../../../jumpstart/Tab.ts'
+import * as TabsValidator from '../../../../jumpstart/Tab.ts'
 
 let wrapper;
 

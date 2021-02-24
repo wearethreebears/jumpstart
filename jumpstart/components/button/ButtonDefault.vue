@@ -4,7 +4,7 @@
 
 <script lang="ts">
 import Vue, { PropOptions } from 'vue'
-import { ButtonType } from '../../../../jumpstart/Button'
+import { ButtonType } from '../../../../../jumpstart/Button'
 
 export default Vue.extend({
 	props: {

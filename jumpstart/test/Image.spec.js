@@ -1,6 +1,6 @@
 import { mount } from '@vue/test-utils'
 import JumpstartImage from '../components/image/JumpstartImage.vue'
-import * as Image from '../../../jumpstart/Image.ts'
+import * as Image from '../../../../jumpstart/Image.ts'
 
 const observe = jest.fn();
 

@@ -1,5 +1,5 @@
 import { mount } from '@vue/test-utils'
-import * as GridValidator from '../../../jumpstart/Grid.ts'
+import * as GridValidator from '../../../../jumpstart/Grid.ts'
 import Grid from '../components/layout/Grid.vue'
 
 let wrapper;

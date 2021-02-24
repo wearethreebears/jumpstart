@@ -1,5 +1,5 @@
 import { mount } from '@vue/test-utils'
-import * as Form from '../../../jumpstart/Form.ts'
+import * as Form from '../../../../jumpstart/Form.ts'
 import FormWrapper from '../components/form/FormWrapper.vue'
 import FormGroup from '../components/form/FormGroup.vue'
 import FormLabel from '../components/form/FormLabel.vue'

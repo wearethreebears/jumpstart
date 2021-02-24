@@ -1,5 +1,5 @@
 import { mount } from '@vue/test-utils'
-import * as GridSectionSpansValidator from '../../../jumpstart/GridSectionSpans.ts'
+import * as GridSectionSpansValidator from '../../../../jumpstart/GridSectionSpans.ts'
 import GridSectionSpan from '../components/layout/GridSectionSpan.vue'
 
 let wrapper;

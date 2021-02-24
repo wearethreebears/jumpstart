@@ -1,6 +1,6 @@
 import { mount, RouterLinkStub } from '@vue/test-utils'
 import JumpstartButton from '../components/button/JumpstartButton.vue'
-import * as Button from '../../../jumpstart/Button.ts'
+import * as Button from '../../../../jumpstart/Button.ts'
 //import NuxtLink from '~/.nuxt/components/nuxt-link.client'
 import Vue from 'vue'
 Vue.config.ignoredElements = ['nuxt-link']

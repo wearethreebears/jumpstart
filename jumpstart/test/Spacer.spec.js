@@ -1,5 +1,5 @@
 import { mount } from '@vue/test-utils'
-import * as SpacerValidator from '../../../jumpstart/Spacer.ts'
+import * as SpacerValidator from '../../../../jumpstart/Spacer.ts'
 import Spacer from '../components/layout/Spacer.vue'
 
 let wrapper;

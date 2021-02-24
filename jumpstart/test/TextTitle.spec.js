@@ -1,6 +1,6 @@
 import { mount } from '@vue/test-utils'
 import TextTitle from '../components/text/TextTitle.vue'
-import * as Font from '../../../jumpstart/Font.ts'
+import * as Font from '../../../../jumpstart/Font.ts'
 
 let wrapper;
 
