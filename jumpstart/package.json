@@ -1,6 +1,7 @@
 {
   "name": "@wearethreebears/jumpstart",
-  "version": "0.8.0",
+  "types": "index",
+  "version": "0.9.0",
   "description": "Jumpstart Vue with common components",
   "main": "index.js",
   "scripts": {
