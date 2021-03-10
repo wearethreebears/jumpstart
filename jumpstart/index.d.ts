@@ -1,4 +1,4 @@
-import './components'
+import '@wearethreebears/jumpstart/components'
 
 export { Boilerplate, BoilerplatePart} from './interfaces/Boilerplate'
 export { Breakpoints } from './interfaces/Breakpoint'

@@ -1,26 +1,43 @@
 {
-  "name": "@wearethreebears/jumpstart",
-  "types": "index",
-  "version": "0.9.0",
-  "description": "Jumpstart Vue with common components",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest"
+  "_from": "@wearethreebears/jumpstart@^0.9.0",
+  "_id": "@wearethreebears/jumpstart@0.9.0",
+  "_inBundle": false,
+  "_integrity": "sha512-9Kvu2l1I+t0FleS4rsdRqAwTjYYyfICHEYPwa1c4SAg9UHh10Jr/XrSxh4S15bKmRWoHq/4LRHOS2KF7P0FAoQ==",
+  "_location": "/@wearethreebears/jumpstart",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@wearethreebears/jumpstart@^0.9.0",
+    "name": "@wearethreebears/jumpstart",
+    "escapedName": "@wearethreebears%2fjumpstart",
+    "scope": "@wearethreebears",
+    "rawSpec": "^0.9.0",
+    "saveSpec": null,
+    "fetchSpec": "^0.9.0"
   },
-  "keywords": [
-    "components"
+  "_requiredBy": [
+    "/@wearethreebears/jumpstart-js"
   ],
-  "author": "Liam Hall",
-  "license": "ISC",
+  "_resolved": "https://registry.npmjs.org/@wearethreebears/jumpstart/-/jumpstart-0.9.0.tgz",
+  "_shasum": "d1fd8c46b72d9f0737b9298f59ccee5676b7b651",
+  "_spec": "@wearethreebears/jumpstart@^0.9.0",
+  "_where": "/Users/liamhall/Desktop/test/node_modules/@wearethreebears/jumpstart-js",
+  "author": {
+    "name": "Liam Hall"
+  },
+  "bundleDependencies": false,
   "dependencies": {
     "@nuxt/typescript-runtime": "^2.0.1",
     "core-js": "^3.8.3",
     "nuxt": "^2.14.12"
   },
+  "deprecated": false,
+  "description": "Jumpstart Vue with common components",
   "devDependencies": {
     "@nuxt/types": "^2.14.12",
-    "@types/sanitize-html": "^1.27.1",
     "@nuxt/typescript-build": "^2.0.4",
+    "@types/sanitize-html": "^1.27.1",
     "@vue/test-utils": "^1.1.2",
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "^26.6.3",
@@ -28,8 +45,28 @@
     "eslint-plugin-prettier": "^3.3.1",
     "jest": "^26.6.3",
     "prettier": "^2.2.1",
+    "sanitize-html": "^2.3.2",
     "ts-jest": "^26.4.4",
-    "vue-jest": "^3.0.4",
-    "sanitize-html": "^2.3.2"
-  }
+    "vue-jest": "^3.0.4"
+  },
+  "keywords": [
+    "components"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "@wearethreebears/jumpstart",
+  "scripts": {
+    "test": "jest"
+  },
+  
+  "types": "index",
+  "module": "./index.cjs",
+  "version": "0.12.0",
+  "files": [
+    "index.d.ts",
+    "**/*.vue",
+    "**/**/*.vue",
+    "**/*.ts",
+    "**/**/*.ts"
+  ]
 }
